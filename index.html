@@ -30,6 +30,26 @@
                grid-template-columns: repeat(2,1fr);
                gap: 5px;
           }
+          @media screen and (max-width: 768px) {
+               .continer{
+                    flex-direction: column;
+                    height: auto;
+               }
+               .squear-collage{
+                    grid-template-columns: 1fr;
+               }
+          }
+          @media screen and (min-width:768px) and (max-width:992px) {
+
+               .continer{
+                    flex-direction: column;
+                    height: auto;
+               }
+          
+               .squear-collage{
+                    grid-template-columns: 1fr;
+               }
+          }
      </style>
 </head>
 <body>
